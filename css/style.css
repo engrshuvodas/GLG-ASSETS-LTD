@@ -1,0 +1,615 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	width: 1700px;
+	margin: 0 auto;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clr{
+	clear: both;
+}
+					/**============ Start header part ============**/
+header{
+	background: url(../images/GLG-Banner-5.jpg)no-repeat;
+	background-position: center;
+	height: 1000px;
+	width: 100%;
+}
+header .overlay{
+	background: rgba(0, 0, 0, 0.4);
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	position: relative;
+}
+header .overlay nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+header .overlay nav .nav_logo{
+	width: 30%;
+	text-align: left;
+}
+header .overlay nav .nav_bar{
+	width: 70%;
+	text-align: center;
+}
+header .overlay .nav_bar ul{
+	display: flex;
+}
+header .overlay .nav_bar ul li{
+	margin: 20px;
+}
+header .overlay .nav_bar ul li a{
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	color: #fff;
+	padding: 6px 10px;
+	box-sizing: border-box;
+}
+header .overlay .header-line p{
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: "Poppins",sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	font-size: 2.5em;
+}
+					/**============ End header part ============**/
+
+
+.title{
+	font-family: "Poppins",sans-serif;
+	font-weight: 600;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.title h3{
+	padding: 0 50px;
+	border-bottom: 1px solid #056839;
+	display: inline-block;
+	color: #1C1A1B;
+	line-height: 1.3;
+}
+.view{
+	text-align: center;
+	margin-top: 15px;
+}
+.view a{
+	text-decoration: underline;
+	color: #056839;
+	font-family: "Poppins",sans-serif;
+	font-size: 17px;
+	transition: .4s;
+}
+.view a:hover{
+	color: #29B576;
+}
+
+					/**============ Start Ongoing-Projects part ============**/
+.Ongoing-Projects{
+	background: url(../images/bg-Ongoing.jpg);
+	color: rgb(21, 21, 21);
+	padding: 60px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.Ongoing-Projects .main-part{
+	width: 100%;
+	display: flex;
+}
+.Ongoing-Projects .main-part .top-part{
+	width: 20%;
+	margin-right: 25px;
+}
+.Ongoing-Projects .main-part .top-part .Ongoing-Projects-img{
+	position: relative;
+}
+.Ongoing-Projects .main-part .top-part .Ongoing-Projects-img img{
+	width: 100%;
+}
+.Ongoing-Projects .main-part .top-part .Ongoing-Projects-img .overlay{
+	height: 100%;
+	width: 0;
+	background: rgba(0, 0, 0, 0.59);
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	padding-left: 15px;
+	transition: .6s;
+	opacity: 0;
+	box-sizing: border-box;
+}
+.Ongoing-Projects .main-part .top-part .Ongoing-Projects-img .overlay p{
+	font-family: "Poppins",sans-serif;
+	position: absolute;
+	top: 50%;
+}
+.Ongoing-Projects .main-part .top-part .Ongoing-Projects-img .overlay .apartment-size p{
+	margin-top: 70px;
+}
+.Ongoing-Projects .main-part .top-part .Ongoing-Projects-img:hover .overlay{
+	width: 100%;
+	opacity: 1;
+}
+.Ongoing-Projects .main-part .top-part .Ongoing-Projects-img .location{
+	background: rgba(0, 0, 0, .69);
+	display: flex;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 4px 10px;
+}
+.Ongoing-Projects .main-part .top-part .Ongoing-Projects-img .location .icon{
+	align-self: center;
+	color: #EA4335;
+	margin-right: 10px;
+}
+.Ongoing-Projects .main-part .top-part .Ongoing-Projects-img .location p{
+	font-family: "Poppins",sans-serif;
+	font-size: 18px;
+	color: #fff;
+}
+.Ongoing-Projects .main-part .top-part .Ongoing-Projects-text{
+	background: #fff;
+	padding: 10px 15px 20px 15px;
+	text-align: center;
+	margin-top: -5px;
+
+}
+.Ongoing-Projects .main-part .top-part .Ongoing-Projects-text h4{
+	font-family: "Poppins",sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.3;
+	color: #056839;
+	margin-bottom: 20px;
+	transition: .4s;
+}
+.Ongoing-Projects .main-part .top-part .Ongoing-Projects-text h4:hover{
+	color: #29B576;
+}
+.Ongoing-Projects .main-part .top-part .Ongoing-Projects-text a{
+	padding: 10px 15px;
+	background: #1C1A1B;
+	font-family: "Poppins",sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 1.3;
+	color: #fff;
+	transition: .4s;
+}
+.Ongoing-Projects .main-part .top-part .Ongoing-Projects-text a:hover{
+	opacity: .85;
+}
+					/**============ End Ongoing-Projects part ============**/
+
+
+
+					/**============ Start Upcoming-Projects part ============**/
+.Upcoming-Projects{
+	background: url(../images/secviceBG.jpg);
+	color: rgb(21, 21, 21);
+	padding: 60px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.Upcoming-Projects .main-part{
+	width: 100%;
+	display: flex;
+}
+.Upcoming-Projects .main-part .top-part{
+	width: 20%;
+	margin-right: 25px;
+}
+.Upcoming-Projects .main-part .top-part .Upcoming-Projects-img{
+	position: relative;
+}
+.Upcoming-Projects .main-part .top-part .Upcoming-Projects-img img{
+	width: 100%;
+}
+.Upcoming-Projects .main-part .top-part .Upcoming-Projects-img .overlay{
+	height: 100%;
+	width: 0;
+	background: rgba(0, 0, 0, 0.59);
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	padding: 0 15px;
+	transition: .6s;
+	opacity: 0;
+	box-sizing: border-box;
+}
+.Upcoming-Projects .main-part .top-part .Upcoming-Projects-img .overlay p{
+	font-family: "Poppins",sans-serif;
+	position: absolute;
+	top: 50%;
+}
+
+.Upcoming-Projects .main-part .top-part .Upcoming-Projects-img:hover .overlay{
+	width: 100%;
+	opacity: 1;
+}
+.Upcoming-Projects .main-part .top-part .Upcoming-Projects-img .location{
+	background: rgba(0, 0, 0, .69);
+	display: flex;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 4px 10px;
+}
+.Upcoming-Projects .main-part .top-part .Upcoming-Projects-img .location .icon{
+	align-self: center;
+	color: #EA4335;
+	margin-right: 10px;
+}
+.Upcoming-Projects .main-part .top-part .Upcoming-Projects-img .location p{
+	font-family: "Poppins",sans-serif;
+	font-size: 18px;
+	color: #fff;
+}
+.Upcoming-Projects .main-part .top-part .Ongoing-Projects-text{
+	background: #fff;
+	padding: 10px 15px 20px 15px;
+	text-align: center;
+	margin-top: -5px;
+
+}
+.Upcoming-Projects .main-part .top-part .Ongoing-Projects-text h4{
+	font-family: "Poppins",sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.3;
+	color: #056839;
+	margin-bottom: 20px;
+	transition: .4s;
+}
+.Upcoming-Projects .main-part .top-part .Ongoing-Projects-text h4:hover{
+	color: #29B576;
+}
+.Upcoming-Projects .main-part .top-part .Ongoing-Projects-text a{
+	padding: 10px 15px;
+	background: #1C1A1B;
+	font-family: "Poppins",sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 1.3;
+	color: #fff;
+	transition: .4s;
+}
+.Upcoming-Projects .main-part .top-part .Ongoing-Projects-text a:hover{
+	opacity: .85;
+}
+					/**============ End Upcoming-Projects part ============**/
+
+
+
+					/**============ Start Handedover-Projects part ============**/
+.Handedover-Projects{
+	background: url(../images/bg-Ongoing.jpg);
+	color: rgb(21, 21, 21);
+	padding: 60px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.Handedover-Projects .main-part{
+	width: 100%;
+	display: flex;
+}
+.Handedover-Projects .main-part .top-part{
+	width: 20%;
+	margin-right: 25px;
+}
+.Handedover-Projects .main-part .top-part .Handedover-Projects-img{
+	position: relative;
+}
+.Handedover-Projects .main-part .top-part .Handedover-Projects-img img{
+	width: 100%;
+}
+.Handedover-Projects .main-part .top-part .Handedover-Projects-img .overlay{
+	height: 100%;
+	width: 0;
+	background: rgba(0, 0, 0, 0.59);
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	padding: 0 15px;
+	transition: .6s;
+	opacity: 0;
+	box-sizing: border-box;
+}
+.Handedover-Projects .main-part .top-part .Handedover-Projects-img .overlay p{
+	font-family: "Poppins",sans-serif;
+	position: absolute;
+	top: 50%;
+}
+.Handedover-Projects .main-part .top-part .Handedover-Projects-img .overlay .apartment-size p{
+	margin-top: 70px;
+}
+.Handedover-Projects .main-part .top-part .Handedover-Projects-img:hover .overlay{
+	width: 100%;
+	opacity: 1;
+}
+.Handedover-Projects .main-part .top-part .Handedover-Projects-img .location{
+	background: rgba(0, 0, 0, .69);
+	display: flex;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 4px 10px;
+}
+.Handedover-Projects .main-part .top-part .Handedover-Projects-img .location .icon{
+	align-self: center;
+	color: #EA4335;
+	margin-right: 10px;
+}
+.Handedover-Projects .main-part .top-part .Handedover-Projects-img .location p{
+	font-family: "Poppins",sans-serif;
+	font-size: 18px;
+	color: #fff;
+}
+.Handedover-Projects .main-part .top-part .Handedover-Projects-text{
+	background: #fff;
+	padding: 10px 15px 20px 15px;
+	text-align: center;
+	margin-top: -5px;
+
+}
+.Handedover-Projects .main-part .top-part .Handedover-Projects-text h4{
+	font-family: "Poppins",sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.3;
+	color: #056839;
+	margin-bottom: 20px;
+	transition: .4s;
+}
+.Handedover-Projects .main-part .top-part .Handedover-Projects-text h4:hover{
+	color: #29B576;
+}
+.Handedover-Projects .main-part .top-part .Handedover-Projects-text a{
+	padding: 10px 15px;
+	background: #1C1A1B;
+	font-family: "Poppins",sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 1.3;
+	color: #fff;
+	transition: .4s;
+}
+.Handedover-Projects .main-part .top-part .Handedover-Projects-text a:hover{
+	opacity: .85;
+}
+					/**============ End Handedover-Projects part ============**/
+
+
+
+					/**============ Start Testimonials part ============**/
+.testimonial{
+	background: url(../images/secviceBG.jpg);
+	color: rgb(21, 21, 21);
+	padding: 60px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.testimonial .main-part{
+	width: 100%;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0;
+}
+.testimonial .main-part .image{
+	width: 40%;
+	float: left;
+}
+.testimonial .main-part .text{
+	width: 60%;
+	height: 100%;
+	float: left;
+	font-family: "Poppins",sans-serif;
+	padding: 0px 30px 0 0;
+	box-sizing: border-box;
+}
+.testimonial .main-part .text p{
+	text-align: right;
+	color: #666;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.3;
+}
+.testimonial .main-part .text h5{
+	color: #1C1A1B;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 1.3;
+	text-align: right;
+}
+					/**============ End Testimonials part ============**/
+
+
+
+					/**============ Start Footer part ============**/
+.footer-title{
+	font-family: "Poppins",sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+footer{
+	background: #333;
+	width: 100%;
+	padding: 25px 0;
+	box-sizing: border-box;
+}
+footer .footer-main_part{
+	display: flex;
+}
+footer .footer-main_part .footer_part{
+	width: 25%;
+	margin: 15px 15px 15px 0;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+footer .footer-main_part .footer_part .address-part{
+	font-family: "Poppins",sans-serif;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+footer .footer-main_part .footer_part ul li a{
+	font-family: "Poppins",sans-serif;
+	font-size: 16px;
+	color: #ccc;
+	transition: .4s;
+}
+footer .footer-main_part .footer_part ul li strong{
+	font-family: "Poppins",sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+footer .footer-main_part .footer_part ul li a:hover{
+	color: #fff;
+}
+footer .footer-main_part .footer_part .navigation .list{
+	display: flex;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+footer .footer-main_part .footer_part .navigation .list .icon{
+	align-self: center;
+}
+footer .footer-main_part .footer_part .navigation .list .icon i{
+	width: 20px;
+	font-weight: 900;
+	color: #fff;
+}
+footer .footer-main_part .footer_part .navigation .list .text{
+	width: 80%;
+}
+footer .footer-main_part .footer_part .navigation .list .text a{
+	font-family: "Poppins",sans-serif;
+	color: #ccc;
+	transition: .4s;
+	cursor: pointer;
+}
+footer .footer-main_part .footer_part .navigation .list .text a:hover{
+	color: #fff;
+}
+footer .footer-main_part .footer_part .certifications img{
+	height: 150px;
+	width: 150px;
+}
+footer .footer-main_part .footer_part .newsletter form{
+	width: 100%;
+	margin-bottom: 10px;
+}
+footer .footer-main_part .footer_part .newsletter form input{
+	height: 34px;
+	width: 70%;
+	background-color: #222;
+	color: #fff;
+	border: none;
+	font-size: 14px;
+	font-family: "Poppins",sans-serif;
+	font-weight: 400;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	display: block;
+	line-height: 1.5;
+	
+}
+.form-control:focus{
+	box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+footer .footer-main_part .footer_part .newsletter .subscribe .btn{
+	display: inline-block;
+	background: #222;
+	color: #ddd;
+	font-size: 14px;
+	font-family: "Poppins",sans-serif;
+	padding: 4px 12px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: .4s;
+	border: none;
+}
+footer .footer-main_part .footer_part .newsletter .subscribe .btn:hover{
+	background: #434344;
+	color: #fff;
+}
+footer .footer-main_part .footer_part .newsletter .social-media{
+	margin-top: 15px;
+}
+footer .footer-main_part .footer_part .newsletter .social-media ul{
+	display: flex;
+}
+footer .footer-main_part .footer_part .newsletter .social-media ul li{
+	margin-right: 10px;
+}
+footer .footer-main_part .footer_part .newsletter .social-media ul li a{
+	display: block;
+	height: 26px;
+	width: 26px;
+	line-height: 26px;
+	text-align: center;
+	background: #222;
+	border-radius: 2px;
+	transition: .4s;
+}
+footer .footer-main_part .footer_part .newsletter .social-media ul li a:hover{
+	background: #29B576;
+	color: #fff;
+}
+					/**============ End Footer part ============**/
+
+
+
+					/**============ Start copyright part ============**/
+.copyright{
+	background: #222;
+	color: #ccc;
+	padding: 15px 0;
+	font-size: 13px;
+	font-family: "Poppins",sans-serif;
+}
+.copyright .copyright-part{
+	display: flex;
+	width: 100%;
+}
+.copyright .copyright-part .copyright-left_part{
+	text-align: left;
+	width: 50%;
+}
+.copyright .copyright-part .copyright-right_part{
+	text-align: right;
+	width: 50%;
+}
+
+.copyright .copyright-part .copyright-right_part a{
+	color: #fff;
+	font-weight: 600;
+}
